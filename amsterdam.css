@@ -1,0 +1,16 @@
+body {behavior: url(csshover.htc);background-color: rgba(223, 172, 31, 0.822);}
+#menu { text-align: center ; width: 100%; }
+div#menu a {color:#FFFFFF;}
+div#menu ul {padding:0px; margin:0px  ; background: white; text-align:center}
+div#menu li {background:maroon; width:200px;height:45px ; }
+div#menu li:hover {background: gold;}
+div#menu li.sousmenu:hover {background: gold;}
+
+div#menu li.sousmenu {background-color:maroon;width:200px ;}
+
+div#menu li.plop { background-color:maroon;}
+
+div#menu ul li {position:relative; list-style: none; float: left;; border-top:1px solid}
+
+div#menu ul ul {position: absolute;display:none; width:100px}
+div#menu li a {text-decoration: none; padding: 4px 0 4px; display:block;width:100px}
