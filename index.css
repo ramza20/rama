@@ -1,7 +1,7 @@
-body {behavior: url(csshover.htc);background-color: white;}
+body {behavior: url(csshover.htc);background-color: green;}
 #menu { text-align: center ; width: 100%; }
 div#menu a {color:#FFFFFF;}
-div#menu ul {padding:0px; margin:0px  ; background: white; text-align:center}
+div#menu ul {padding:0px; margin:0px  ; background: green; text-align:center}
 div#menu li {background:maroon; width:200px;height:45px ; }
 div#menu li:hover {background: gold;}
 div#menu li.sousmenu:hover {background: gold;}
